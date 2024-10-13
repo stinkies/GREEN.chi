@@ -38,12 +38,12 @@ li {
 }
 
 button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  padding: 10px 20px;
+  background-image: linear-gradient(to right, #007bff, #66ccff);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 button:hover {
