@@ -3,14 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Play Sound on Button Click</title>
+    <title>Personality Quiz</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Press the Button for a Sound Cue</h1>
-        <button id="play-sound">Play Sound</button>
-        <audio id="sound" src="sound.mp3"></audio>
+    <div class="quiz-container">
+        <h1>Personality Quiz</h1>
+        <div id="quiz">
+            <div id="question"></div>
+            <ul id="choices">
+                <!-- Choices will be dynamically inserted here -->
+            </ul>
+            <button id="submit" onclick="submitAnswer()">Submit</button>
+        </div>
+        <div id="score-container" style="display:none;">
+            <h2><span id="score"></span></h2>
+            <h3 id="result"></h3>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
