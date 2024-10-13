@@ -11,3 +11,7 @@ Have you ever sat and wondered, what kind of cat are you?
 
 
 [Try Out the Quiz Today!](https://stinkies.github.io/GREEN.chi/)
+
+<p align="center">
+  <img width="400px" src="https://skillicons.dev/icons?i=js,html,css,vscode,git&perline=10" />
+</p>
