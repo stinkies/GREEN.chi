@@ -33,17 +33,27 @@ let currentQuestionIndex = 0;
 let totalScore = 0;
 
 function displayQuestion() {
+    if (currentQuestionIndex >= questions.length) {
+        displayScore();
+        return;
+    }
+
     const questionElement = document.getElementById("question");
     const choicesElement = document.getElementById("choices");
-
     const currentQuestion = questions[currentQuestionIndex];
+
+    if (!currentQuestion) {
+        console.error("Question not found");
+        displayScore();
+        return;
+    }
 
     questionElement.textContent = currentQuestion.question;
     choicesElement.innerHTML = "";
 
     currentQuestion.choices.forEach((choice, index) => {
         const li = document.createElement("li");
-        li.innerHTML = `<input type="radio" name="answer" value="${choice.points}"> ${choice.text}`;
+        li.innerHTML = `<label><input type="radio" name="answer" value="${index}"> ${choice.text}</label>`;
         choicesElement.appendChild(li);
     });
 }
@@ -55,9 +65,9 @@ function submitAnswer() {
         return;
     }
 
-    const answerPoints = parseInt(selectedAnswer.value);
+    const answerIndex = parseInt(selectedAnswer.value);
+    const answerPoints = questions[currentQuestionIndex].choices[answerIndex].points;
     totalScore += answerPoints;
-
     currentQuestionIndex++;
 
     if (currentQuestionIndex < questions.length) {
@@ -82,6 +92,16 @@ function displayScore() {
     }
 }
 
+function resetQuiz() {
+    currentQuestionIndex = 0;
+    totalScore = 0;
+    document.getElementById("quiz").style.display = "block";
+    document.getElementById("score-container").style.display = "none";
+    displayQuestion();
+}
+
 window.onload = function () {
     displayQuestion();
+    document.getElementById("submit-button").addEventListener("click", submitAnswer);
+    document.getElementById("reset-button").addEventListener("click", resetQuiz);
 };
