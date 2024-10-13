@@ -7,7 +7,7 @@ Have you ever sat and wondered, what kind of cat are you?
 
 * If you scored 15 or less, you are a calm calico
 * If you scored between 16 and 25, you are a balanced banchi
-* If you socred 26 or higher, you are a wench
+* If you scored 26 or higher, you are a wench
 
 
 [Try Out the Quiz Today!](https://stinkies.github.io/GREEN.chi/)
