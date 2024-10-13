@@ -1,16 +1,3 @@
-const soundEffects =[
-    new Audio(),
-    new Audio(),
-    new Audio(),
-];
-
-function playRandomSound(){
-    const randomIndex = Math.floor(Math.random() * soundeffects.length);
-    const sound = soundEffects[randomIndex];
-    sound.play();
-}
-
-    
 const questions = [
     {
         question: "When you are free, you like:",
