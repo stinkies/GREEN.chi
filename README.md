@@ -10,4 +10,4 @@ Have you ever sat and wondered, what kind of cat are you?
 * If you socred 26 or higher, you are a wench
 
 
-Try out the quiz today! ![...](https://stinkies.github.io/GREEN.chi/)
+[Try Out the Quiz Today!](https://stinkies.github.io/GREEN.chi/)
