@@ -11,6 +11,7 @@ Have you ever sat and wondered, what kind of cat are you? With this short, simpl
 
 
 [Try Out the Quiz Today!](https://stinkies.github.io/GREEN.chi/)
+  <img src="https://github.com/stinkies/GREEN.chi/blob/main/QR.png" alt="raspberry">
 
 
 <h2 align="center" width="1200px"> Tech Stack </h2> 
