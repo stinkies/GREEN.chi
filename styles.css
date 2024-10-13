@@ -1,6 +1,6 @@
 body {
   font-family: 'Garamond', sans-serif;
-  background-image: linear-gradient(to right, #f06b6b, #f0966b, #f0c26b);
+  background-image:  radial-gradient(circle at 11.4% 50%, rgb(255, 37, 174) 0%, rgb(250, 237, 56) 90%);
   display: flex;
   justify-content: center;
   align-items: center;
