@@ -5,10 +5,8 @@ const questions = [
             { text: "With friends", points: 10 },
             { text: "Reading or learning something new", points: 5 },
             { text: "Going outdoors or exploring", points: 8 },
-            { text: "Relaxing by yourself", points: 3 }
-            {text: "Hanging with family", points:2}
-          
-          
+            { text: "Relaxing by yourself", points: 3 },
+            { text: "Hanging with family", points: 2 }
         ]
     },
     {
@@ -74,7 +72,6 @@ function displayScore() {
     document.getElementById("score-container").style.display = "block";
     document.getElementById("score").textContent = `Your total score is: ${totalScore}`;
     
-    // Display personality type or result based on score
     const resultElement = document.getElementById("result");
     if (totalScore <= 15) {
         resultElement.textContent = "You are an introvert, enjoying calm and solitary activities.";
