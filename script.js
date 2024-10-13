@@ -2,7 +2,7 @@ const questions = [
     {
         question: "You prefer to spend your free time:",
         choices: [
-            { text: "With friends", points: 10 },
+            { text: "Hang with friends", points: 10 },
             { text: "Reading or learning something new", points: 5 },
             { text: "Going outdoors or exploring", points: 8 },
             { text: "Relaxing by yourself", points: 3 },
@@ -12,19 +12,19 @@ const questions = [
     {
         question: "When faced with a challenge, you tend to:",
         choices: [
-            { text: "Seek help from others", points: 5 },
-            { text: "Work on it independently", points: 8 },
+            { text: "Seek help from others", points: 8 },
+            { text: "Work on it independently", points: 2 },
             { text: "Take a break and come back to it later", points: 3 },
-            { text: "Tackle it head-on immediately", points: 10 }
+            { text: "Tackle it head-on immediately", points: 5 }
         ]
     },
     {
         question: "Your ideal vacation is:",
         choices: [
             { text: "Relaxing on a beach", points: 3 },
-            { text: "Visiting a big city", points: 5 },
+            { text: "Visiting a big city", points: 8 },
             { text: "Going on an adventure", points: 10 },
-            { text: "Exploring a quiet, natural place", points: 8 }
+            { text: "Exploring a quiet, natural place", points: 5 }
         ]
     }
 ];
