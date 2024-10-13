@@ -1,6 +1,6 @@
 <h2 align="center" width="1200px"> 😺 Purrsonality Quiz 😺 </h2> 
 <p align="center">
-  <img src="https://github.com/stinkies/GREEN.chi/blob/main/Purrsonality.png" alt="raspberry">
+  <img src="https://github.com/stinkies/GREEN.chi/blob/main/Purrsonality.png" alt="logo" width="300">
 </p>
 
 Have you ever sat and wondered, what kind of cat are you? With this short, simple quiz...now you can know!
@@ -11,7 +11,9 @@ Have you ever sat and wondered, what kind of cat are you? With this short, simpl
 
 
 [Try Out the Quiz Today!](https://stinkies.github.io/GREEN.chi/)
-  <img src="https://github.com/stinkies/GREEN.chi/blob/main/QR.png" alt="raspberry">
+<p align="center">
+  <img src="https://github.com/stinkies/GREEN.chi/blob/main/QR.png" alt="qr" width="300">
+</p>
 
 
 <h2 align="center" width="1200px"> Tech Stack </h2> 
