@@ -1,10 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My First Web Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Personality Test</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Hello, World!</h1>
-  <p>This is my first paragraph.</p>
+    <h1>Cat Personality Test</h1>
+    <div id="quiz">
+        <div id="question"></div>
+        <button onclick="selectAnswer(1)">1</button>
+        <button onclick="selectAnswer(2)">2</button>
+        <button onclick="selectAnswer(3)">3</button>
+        <button onclick="selectAnswer(4)">4</button>
+        <button onclick="selectAnswer(5)">5</button>
+    </div>
+    <div id="result"></div>
+
+    <script src="script.js"></script>
 </body>
 </html>
