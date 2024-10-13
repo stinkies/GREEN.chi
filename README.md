@@ -1,4 +1,4 @@
-<h2 align="center" width="1200px"> 😺 Purrsonality 😺 </h2> 
+<h2 align="center" width="1200px"> 😺 Purrsonality Quiz 😺 </h2> 
 <p align="center">
   <img src="https://github.com/stinkies/GREEN.chi/blob/main/Purrsonality.png" alt="raspberry">
 </p>
