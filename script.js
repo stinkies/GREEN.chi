@@ -13,13 +13,13 @@ function playRandomSound(){
     
 const questions = [
     {
-        question: "You prefer to spend your free time:",
+        question: "When you are free, you like:",
         choices: [
-            { text: "Hang with friends", points: 10 },
-            { text: "Reading or learning something new", points: 5 },
-            { text: "Going outdoors or exploring", points: 8 },
-            { text: "Relaxing by yourself", points: 3 },
-            { text: "Hanging with family", points: 2 }
+            { text: "Meeting new people interests you", points: 10 },
+            { text: "Reading or learning something is more you", points: 5 },
+            { text: "Venturing into the great outdoors", points: 8 },
+            { text: "Seeking solitude: homebody", points: 3 },
+            { text: "Hanging with family is the best", points: 2 }
         ]
     },
     {
@@ -28,16 +28,16 @@ const questions = [
             { text: "Seek help from others", points: 8 },
             { text: "Work on it independently", points: 2 },
             { text: "Take a break and come back to it later", points: 3 },
-            { text: "Tackle it head-on immediately", points: 5 }
+            { text: "Lock in", points: 5 }
         ]
     },
     {
-        question: "Your ideal vacation is:",
+        question: "Your dream vacation is:",
         choices: [
-            { text: "Relaxing on a beach", points: 3 },
-            { text: "Visiting a big city", points: 8 },
-            { text: "Going on an adventure", points: 10 },
-            { text: "Exploring a quiet, natural place", points: 5 }
+            { text: "Relaxing on a remote island like Easter Island", points: 3 },
+            { text: "Exploring a new and big city like New York", points: 8 },
+            { text: "Going on an unplanned road trip across the country", points: 10 },
+            { text: "Wandering aimlessly on a peaceful nature walk", points: 5 }
         ]
     }
 ];
